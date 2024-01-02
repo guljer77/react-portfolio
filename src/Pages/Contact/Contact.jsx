@@ -1,12 +1,12 @@
 import React from "react";
-import BannerHead from "../../Components/BannerHead";
 import Container from "../../Components/Container";
 import { FaPhoneAlt, FaEnvelopeOpen, FaHome } from "react-icons/fa";
+import BannerHead from "../../Components/Banner/BannerHead";
 
 function Contact() {
   return (
     <div className="">
-      <BannerHead title={"Contact Us"} subTitle={"Contact"} />
+      <BannerHead title={"Contact With Us"} subTitle={"Contact"} />
       <Container>
         <div className="lg:flex items-center justify-between py-10">
           <div className="lg:w-[40%] w-full">

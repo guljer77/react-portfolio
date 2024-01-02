@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import Container from "../../Components/Container";
-import BannerHead from "../../Components/BannerHead";
 import Content from '../../../public/all_product';
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa6";
+import BannerHead from "../../Components/Banner/BannerHead";
 
 function Project() {
   const [project, setProject] = useState(Content);
@@ -13,7 +13,7 @@ function Project() {
 
   return (
     <div>
-      <BannerHead title={"My Project"} subTitle={"Project"} />
+      <BannerHead title={"Welcome to My Project"} subTitle={"Project"} />
       <Container>
         <div className="py-10">
           <div className="border shadow-lg rounded-full lg:w-[50%] sm:w-[70%] w-full mx-auto">
@@ -57,7 +57,7 @@ function Project() {
             }
           </div>
           <div className="py-10">
-            <div className="flex items-center justify-center space-x-10 pt-10">
+            <div className="flex items-center justify-center lg:space-x-10 space-x-7 pt-10">
               <button className="flex items-center gap-1"><FaArrowLeft /> Pre</button>
               <button>1</button>
               <button>2</button>
