@@ -1,12 +1,9 @@
-import React, { useState } from "react";
 import Container from "./Container";
 import { Link, NavLink } from "react-router-dom";
-import { CiSun } from "react-icons/ci";
-import { IoMoonSharp } from "react-icons/io5";
 import Headroom from "react-headroom";
+import { FaEnvira } from "react-icons/fa";
 
 function Nav() {
-  const [light, setLight] = useState(false);
   return (
     <div>
       <Headroom
@@ -37,13 +34,6 @@ function Nav() {
                     <NavLink to="/contact">Contact</NavLink>
                   </li>
                 </ul>
-                <div onClick={() => setLight(!light)}>
-                  {light ? (
-                    <IoMoonSharp size={24} className="" />
-                  ) : (
-                    <CiSun size={24} className="" />
-                  )}
-                </div>
               </div>
             </div>
           </Container>
@@ -55,12 +45,13 @@ function Nav() {
             <Link to="/" className="text-[22px] font-semibold uppercase">
               Web<span className="text-primary">Dev</span>
             </Link>
-            <div onClick={() => setLight(!light)}>
-              {light ? (
-                <IoMoonSharp size={24} className="" />
-              ) : (
-                <CiSun size={24} className="" />
-              )}
+            <div>
+              <Link
+                to="/contact"
+                className="flex lg:text-[15px] text-[14px] items-center lg:gap-3 gap-1 lg:px-5 px-3 py-2 rounded-md bg-primary text-white"
+              >
+                Contact Me <FaEnvira />
+              </Link>
             </div>
           </div>
         </div>
