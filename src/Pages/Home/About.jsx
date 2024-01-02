@@ -98,7 +98,7 @@ function About() {
                   </h4>
                   <h6 className="text-[16px] font-semibold text-primary">
                     <FaGraduationCap size={24} className="inline-block" />{" "}
-                    Skills
+                    Education
                   </h6>
                   <div className="pt-5">
                     <h4 className="text-[15px] font-medium">
