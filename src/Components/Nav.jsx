@@ -5,7 +5,7 @@ import { FaEnvira } from "react-icons/fa";
 
 function Nav() {
   return (
-    <div>
+    <div className="">
       <Headroom
         style={{
           webkitTransition: "all .5s ease-in-out",
@@ -40,7 +40,7 @@ function Nav() {
         </div>
       </Headroom>
       <div className="lg:hidden block">
-        <div className="w-[90%] my-5 mx-auto">
+        <div className="w-[90%] py-5 mx-auto">
           <div className="flex items-center justify-between">
             <Link to="/" className="text-[22px] font-semibold uppercase">
               Web<span className="text-primary">Dev</span>
