@@ -19,7 +19,7 @@ let all_product = [
   {
     id: 3,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    category: "Next.Js",
+    category: "Next.JS",
     image: p3_img,
   },
   {
