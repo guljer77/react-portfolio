@@ -29,14 +29,20 @@ function Banner() {
             </p>
             <div className="flex items-center lg:space-x-5 my-4">
               <div className="lg:block hidden">
-                <Link to="/contact" className="flex lg:text-[15px] text-[14px] items-center lg:gap-3 gap-1 lg:px-5 px-3 py-2 rounded-md bg-primary text-white">
+                <Link
+                  to="/contact"
+                  className="flex lg:text-[15px] text-[14px] items-center lg:gap-3 gap-1 lg:px-5 px-3 py-2 rounded-md bg-primary text-white"
+                >
                   Contact Me <FaEnvira />
                 </Link>
               </div>
               <div>
-                <Link className="flex lg:text-[15px] text-[14px] items-center lg:gap-3 gap-1 lg:px-5 px-3 py-2 rounded-md bg-primary text-white">
+                <a
+                  href="CV.pdf" download
+                  className="flex lg:text-[15px] text-[14px] items-center lg:gap-3 gap-1 lg:px-5 px-3 py-2 rounded-md bg-primary text-white"
+                >
                   Download CV <MdOutlineCloudDownload />
-                </Link>
+                </a>
               </div>
             </div>
             <div className="flex items-center space-x-3 mt-7">

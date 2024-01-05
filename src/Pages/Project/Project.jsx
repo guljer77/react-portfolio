@@ -64,7 +64,7 @@ function Project() {
               <button>3</button>
               <button>4</button>
               <button>5</button>
-              <button className="flex items-center gap-1"><FaArrowRight /> Next</button>
+              <button className="flex items-center gap-1">Next <FaArrowRight /></button>
             </div>
           </div>
         </div>
